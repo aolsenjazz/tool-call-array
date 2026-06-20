@@ -1,0 +1,21 @@
+{
+  "name": "langchain-getweather-array-bug",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A getWeather tool that returns a list of forecast objects breaks @langchain/core: OpenAI 400s, Anthropic silently drops the data.",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "1.5.0",
+    "@langchain/core": "1.2.0",
+    "@langchain/openai": "1.5.0",
+    "zod": "4.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.6.0"
+  }
+}
